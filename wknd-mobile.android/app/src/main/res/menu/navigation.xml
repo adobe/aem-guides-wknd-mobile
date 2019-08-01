@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools" xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--
+    <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="@string/navigation_home" app:showAsAction="never"/>
+    -->
+    <item
+            android:id="@+id/navigation_settings"
+            android:icon="@drawable/ic_dashboard_black_24dp"
+            android:title="@string/navigation_settings"
+            android:checked="false" app:showAsAction="never"/>
+
+</menu>

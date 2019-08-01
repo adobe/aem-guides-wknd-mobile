@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="sling:OrderedFolder">
+    <jcr:content
+        jcr:primaryType="nt:unstructured"
+        jcr:title="Images">
+        <folderThumbnail/>
+    </jcr:content>
+    <jacob-morch-272617-unsplash.jpg/>
+    <bogomil-mihaylov-519207-unsplash.jpg/>
+    <fischer-twins-662236-unsplash.jpg/>
+    <austin-neill-247237-unsplash.jpg/>
+    <craig-whitehead-253949-unsplash.jpg/>
+    <ablimit-ablet-639666-unsplash.jpg/>
+    <wknd-logo.png/>
+    <tom-rogerson-574325-unsplash.jpg/>
+    <joshua-fuller-368384-unsplash.jpg/>
+</jcr:root>

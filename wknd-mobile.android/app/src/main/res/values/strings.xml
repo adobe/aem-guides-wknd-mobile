@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">WKND</string>
+    <string name="navigation_home">Events</string>
+    <string name="navigation_settings">Settings</string>
+    <string name="button_more">MORE</string>
+    <string name="button_less">LESS</string>
+    <string name="label_tickets">Tickets</string>
+    <string name="label_address">Address</string>
+    <string name="label_time">Time</string>
+    <string name="label_venue">Venue</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="settings_aem_header">AEM Content Services</string>
+
+    <!-- Messages Preferences -->
+    <string name="settings_host_title">AEM Host and Port</string>
+    <string name="settings_path_title">AEM JSON Path</string>
+
+</resources>
