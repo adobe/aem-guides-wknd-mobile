@@ -1,5 +1,7 @@
 # WKND Mobile (AEM Guides)
 
+![WKND Mobile App](https://github.com/adobe/aem-guides-wknd-mobile/blob/assets/wknd-mobile-app.png?raw=true)
+
 The WKND Mobile repository supports the AEM Headless tutorial and contains two projects:
 
 * **wknd-mobile.aem**: An AEM multi-module maven project that deploys the baseline application, content and configuration needed to begin the AEM Headless tutorial.
