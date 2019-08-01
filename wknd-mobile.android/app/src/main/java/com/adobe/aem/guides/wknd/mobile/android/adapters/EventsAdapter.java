@@ -1,24 +1,34 @@
+/*
+ * Copyright 2019 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
 package com.adobe.aem.guides.wknd.mobile.android.adapters;
 
-import android.graphics.Point;
-import android.graphics.Rect;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.ViewParent;
-import android.widget.*;
+import android.widget.Button;
+import android.widget.GridLayout;
+import android.widget.ImageView;
+import android.widget.TextView;
+
 import androidx.annotation.NonNull;
-import androidx.core.widget.NestedScrollView;
 import androidx.recyclerview.widget.RecyclerView;
-import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.adobe.aem.guides.wknd.mobile.R;
 import com.adobe.aem.guides.wknd.mobile.android.models.Event;
 import com.bumptech.glide.Glide;
 
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
 import java.util.List;
 
 public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder> {
@@ -156,7 +166,7 @@ public class EventsAdapter extends RecyclerView.Adapter<EventsAdapter.ViewHolder
                         view.getRootView().findViewById(R.id.eventsList).postDelayed(new Runnable() {
                             @Override
                             public void run() {
-                                secondaryDetails.getParent().requestChildFocus(secondaryDetails,secondaryDetails);
+                                secondaryDetails.getParent().requestChildFocus(secondaryDetails, secondaryDetails);
                             }
 
                         }, 100);

@@ -1,3 +1,15 @@
+/*
+ * Copyright 2019 Adobe. All rights reserved.
+ * This file is licensed to you under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License. You may obtain a copy
+ * of the License at http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software distributed under
+ * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language
+ * governing permissions and limitations under the License.
+ */
+
 package com.adobe.aem.guides.wknd.mobile.android;
 
 import android.content.Intent;
@@ -7,13 +19,10 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.core.widget.NestedScrollView;
-import androidx.recyclerview.widget.RecyclerView;
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout;
 
 import com.adobe.aem.guides.wknd.mobile.R;
@@ -86,9 +95,9 @@ public class MainActivity extends AppCompatActivity {
 
         // Create the custom classes that will map the JSON -> POJO -> View elements
         final List<ViewBinder> viewBinders = new ArrayList<>();
-        viewBinders.add(new LogoViewBinder(this, getAemHost(), (ImageView) findViewById(R.id.logo)));
-        viewBinders.add(new TagLineViewBinder(this, (TextView) findViewById(R.id.tagLine)));
-        viewBinders.add(new EventsViewBinder(this, getAemHost(), (RecyclerView) findViewById(R.id.eventsList)));
+        viewBinders.add(new LogoViewBinder(this, getAemHost(), findViewById(R.id.logo)));
+        viewBinders.add(new TagLineViewBinder(this, findViewById(R.id.tagLine)));
+        viewBinders.add(new EventsViewBinder(this, getAemHost(), findViewById(R.id.eventsList)));
 
         // Init the application when newly opened
         initApp(viewBinders);
@@ -121,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("WKND_MOBILE", "Successfully connected to AEM Content Services endpoint!");
 
                         findViewById(R.id.container).requestFocus();
-                        ((NestedScrollView) findViewById(R.id.nestedScrollView)).scrollTo(0, 0);
+                        findViewById(R.id.nestedScrollView).scrollTo(0, 0);
 
                         for (final ViewBinder viewBinder : viewBinders) {
                             try {
