@@ -10,3 +10,11 @@ Note that this code is does not have to built or augmented during the taking of 
 ## Supporting AEM Packages
 
 This Github project's [Releases](https://github.com/adobe/aem-guides-wknd-mobile/releases/) contains AEM content packages that contain solutions to various chapters of the AEM Headless tutorial.
+
+### Contributing
+
+Contributions are welcomed! Read the [Contributing Guide](./CONTRIBUTING.md) for more information.
+
+### Licensing
+
+This project is licensed under the Apache V2 License. See [LICENSE](./LICENSE) for more information.

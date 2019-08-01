@@ -50,18 +50,15 @@ There are three levels of testing contained in the project:
 
     in the browser, open the page in 'Developer mode', open the left panel and switch to the 'Tests' tab and find the generated 'MyName Tests' and run them.
 
-
 ## Maven settings
 
 The project comes with the auto-public repository configured. To setup the repository in your Maven settings, refer to:
 
     http://helpx.adobe.com/experience-manager/kb/SetUpTheAdobeMavenRepository.html
 
-
 ## Releasing this Project
 
 The artifacts build from this project will be hosted in GitHub.com releases. Each posted release should have a new version. The version of this Maven project (and sub-projects) can be incremented via:
-
 
 ### Updating to the Release version
 
@@ -71,10 +68,16 @@ The artifacts build from this project will be hosted in GitHub.com releases. Eac
 
 `mvn clean package`
 
-
-### Updating to the next development SNAPSHOT version.
+### Updating to the next development SNAPSHOT version
 
 `mvn versions:set -DnewVersion=1.2.1-SNAPSHOT`
 
 `mvn versions:commit`
 
+### Contributing
+
+Contributions are welcomed! Read the [Contributing Guide](../CONTRIBUTING.md) for more information.
+
+### Licensing
+
+This project is licensed under the Apache V2 License. See [LICENSE](../LICENSE) for more information.
