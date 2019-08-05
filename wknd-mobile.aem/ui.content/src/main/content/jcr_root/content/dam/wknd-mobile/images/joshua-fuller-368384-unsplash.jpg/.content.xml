@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  ~ Copyright 2019 Adobe. All rights reserved.
+  ~ This file is licensed to you under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License. You may obtain a copy
+  ~ of the License at http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software distributed under
+  ~ the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+  ~ OF ANY KIND, either express or implied. See the License for the specific language
+  ~ governing permissions and limitations under the License.
+  -->
+
+<jcr:root xmlns:Iptc4xmpCore="http://iptc.org/std/Iptc4xmpCore/1.0/xmlns/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dam="http://www.day.com/dam/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6c5c53c0-e533-463a-a3dd-0908bcebff7e">
+    <jcr:content
+        cq:lastModified="{Date}2019-07-24T15:57:35.901-04:00"
+        cq:lastModifiedBy="admin"
+        cq:name="joshua-fuller-368384-unsplash.jpg"
+        cq:parentPath="/content/dam/wknd-mobile"
+        dam:assetState="processed"
+        jcr:lastModified="{Date}2019-07-24T15:00:44.224-04:00"
+        jcr:lastModifiedBy="admin"
+        jcr:primaryType="dam:AssetContent">
+        <metadata
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2019-07-24T14:56:59.473-04:00"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:Progressive="no"
+            dam:sha1="03727dd7cf985dea250f92e72d6cb863fede2338"
+            dam:size="{Long}3284304"
+            dc:format="image/jpeg"
+            dc:modified="{Date}2019-07-24T15:00:44.096-04:00"
+            dc:title="The Fuller Experience"
+            exif:ColorSpace="{Long}1"
+            exif:PixelXDimension="{Long}3891"
+            exif:PixelYDimension="{Long}3891"
+            jcr:lastModified="{Date}2019-07-24T15:00:44.095-04:00"
+            jcr:lastModifiedBy="admin"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:ImageLength="{Long}3891"
+            tiff:ImageWidth="{Long}3891"
+            tiff:Orientation="{Long}1"
+            tiff:ResolutionUnit="{Long}2"
+            tiff:XResolution="72/1"
+            tiff:YResolution="72/1">
+            <Iptc4xmpCore:CreatorContactInfo jcr:primaryType="nt:unstructured"/>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
