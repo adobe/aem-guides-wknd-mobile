@@ -15,7 +15,7 @@
     <groupId>com.adobe.aem.guides</groupId>
     <artifactId>com.adobe.aem.guides.wknd-mobile</artifactId>
     <packaging>pom</packaging>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <description>wknd-mobile</description>
 
     <modules>
@@ -45,7 +45,7 @@
         <connection>scm:git:https://github.com/adobe/aem-guides-wknd-mobile.git</connection>
         <developerConnection>scm:git:https://github.com/adobe/aem-guides-wknd-mobile.git</developerConnection>
         <url>https://github.com/adobe/aem-guides-wknd-mobile/tree/master</url>
-        <tag>com.adobe.aem.guides.wknd-mobile-1.0.0</tag>
+        <tag>HEAD</tag>
     </scm>
 
     <build>
