@@ -43,6 +43,13 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     </properties>
 
+    <scm>
+        <connection>scm:git:https://github.com/adobe/aem-guides-wknd-mobile.git</connection>
+        <developerConnection>scm:git:https://github.com/adobe/aem-guides-wknd-mobile.git</developerConnection>
+        <url>https://github.com/adobe/aem-guides-wknd-mobile/tree/master</url>
+        <tag>HEAD</tag>
+    </scm>
+
     <build>
         <plugins>
             <!-- Maven Release Plugin -->
