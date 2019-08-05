@@ -19,7 +19,7 @@
     <parent>
         <groupId>com.adobe.aem.guides</groupId>
         <artifactId>com.adobe.aem.guides.wknd-mobile</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
 
@@ -74,7 +74,7 @@
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>com.adobe.aem.guides.wknd-mobile.core</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0.0</version>
         </dependency>
 
         <dependency>
