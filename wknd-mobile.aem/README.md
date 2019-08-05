@@ -58,19 +58,12 @@ The project comes with the auto-public repository configured. To setup the repos
 
 ## Releasing this Project
 
+Note that in order to release this project, you must be part of the Github **aem-guides-wknd** team.
+
 The artifacts build from this project will be hosted in GitHub.com releases. Each posted release should have a new version. The version of this Maven project (and sub-projects) can be incremented via:
 
-### Updating to the Release version
-
-`mvn versions:set -DnewVersion=1.2.0`
-
-`mvn versions:commit`
-
-`mvn clean package`
-
-### Updating to the next development SNAPSHOT version
-
-`mvn versions:set -DnewVersion=1.2.1-SNAPSHOT`
+    $ mvn release:prepare
+    $ mvn release:perform -Darguments="-Dmaven.deploy.skip=true"
 
 `mvn versions:commit`
 
