@@ -60,6 +60,7 @@
                             <target>/apps/wknd-mobile/install</target>
                         </embedded>
                     </embeddeds>
+                    <!--
                     <subPackages>
                         <subPackage>
                             <groupId>com.adobe.cq</groupId>
@@ -72,6 +73,7 @@
                             <filter>true</filter>
                         </subPackage>
                     </subPackages>
+                    -->
                 </configuration>
             </plugin>
             <plugin>
@@ -98,7 +100,7 @@
         <dependency>
             <groupId>com.adobe.aem.guides</groupId>
             <artifactId>com.adobe.aem.guides.wknd-mobile.core</artifactId>
-            <version>1.0.1-SNAPSHOT</version>
+            <version>${project.version}</version>
         </dependency>
 
         <dependency>
@@ -107,16 +109,6 @@
             <classifier>apis</classifier>
         </dependency>
 
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.all</artifactId>
-            <type>zip</type>
-        </dependency>
-        <dependency>
-            <groupId>com.adobe.cq</groupId>
-            <artifactId>core.wcm.components.examples</artifactId>
-            <type>zip</type>
-        </dependency>
         <dependency>
             <groupId>javax.jcr</groupId>
             <artifactId>jcr</artifactId>
